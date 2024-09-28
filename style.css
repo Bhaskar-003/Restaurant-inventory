@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Light text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.dark-mode {
+    background-color: #333; /* Dark background */
+    color: #f9f9f9; /* Light text color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 12px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Light hover effect */
+}
+
+.dark-mode button {
+    background-color: #555; /* Dark button background */
+    color: #f9f9f9; /* Light button text */
+}
+
+.dark-mode button:hover {
+    background-color: #777; /* Dark button hover effect */
+}
+
+#dashboard {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eaeaea; /* Light gray background */
+    border-radius: 5px;
+}
